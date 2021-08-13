@@ -3,7 +3,7 @@
 
 
 // Establish a Socket.io connection
-const socket = io('http://15.188.60.85:3030',{transports:['websocket'], rejectUnauthorized: false});
+const socket = io('https://15.188.60.85:3030',{transports:['websocket'], rejectUnauthorized: false});
 // Initialize our Feathers client application through Socket.io
 // with hooks and authentication.
 const client = feathers();
