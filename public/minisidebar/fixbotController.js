@@ -3,7 +3,7 @@
 
 
 // Establish a Socket.io connection
-const socket = io('https://bck01.herokuapp.com',{transports:['websocket'], rejectUnauthorized: false});
+const socket = io('http://15.188.60.85');
 // Initialize our Feathers client application through Socket.io
 // with hooks and authentication.
 const client = feathers();
