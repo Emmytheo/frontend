@@ -1,0 +1,10 @@
+{
+  "host": "localhost",
+  "port": 80,
+  "public": "../public/minisidebar/",
+  "paginate": {
+    "default": 10,
+    "max": 50
+  }
+  
+}
